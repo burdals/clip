@@ -6,6 +6,7 @@ Add a line here when a pull request changes something a user can see. Use **New*
 
 ## 2026-11-19
 
+- **Fixed:** Exporting from the clip studio on this device no longer fails partway through on iPhone and iPad when the browser can't read the downloaded clip. If an on-device export still hits a browser error, the studio suggests background export instead of showing the raw error. ([#459](https://github.com/FujiwaraChoki/supoclip/pull/459))
 - **Under the hood:** Hosted SupoClip can add extra video workers when the queue backs up and remove them once they are idle, without stopping any video that is being made. It is off until switched on. ([#455](https://github.com/FujiwaraChoki/supoclip/pull/455))
 
 ## 2026-11-18
