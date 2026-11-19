@@ -6,6 +6,7 @@ Add a line here when a pull request changes something a user can see. Use **New*
 
 ## 2026-11-19
 
+- **Fixed:** Clips of two people sitting apart, such as a podcast filmed in one wide shot, keep both people stacked on screen. Before, they could jump to a tight crop on one side of the frame whenever the other person turned away. ([#458](https://github.com/FujiwaraChoki/supoclip/pull/458))
 - **Under the hood:** Hosted SupoClip can add extra video workers when the queue backs up and remove them once they are idle, without stopping any video that is being made. It is off until switched on. ([#455](https://github.com/FujiwaraChoki/supoclip/pull/455))
 
 ## 2026-11-18
